@@ -1,0 +1,22 @@
+SeinfeldTrivia Bugs
+===================
+
+*RANKED IN ORDER OF IMPORTANCE*
+
+1. When the user presses an answer at the exact same time or near the exact same
+time the 'time is up' dialog pops up, the answer timer goes haywire and quickly
+goes through all the questions. Hard to reproduce
+- Date found: 11/25/16
+*Importance Level: Low*
+
+2. When the text of a question is too long, the question text is cut off from
+the program window until the window is maximized.
+- Date Found: 11/14/16
+*Importance Level: Medium*
+
+3. A fatal error was detected by the JVM when clicking "Jerry and Elaine"
+answer button for the question "Who did Kramer and Newman use to push rickshaws around NYC?".
+Doesn't happen almost ever and extremely hard to reproduce.
+See ' hs_err_pid4812.log ' in 'docs' folder 
+- Date Found: 11/13/16
+* Importance Level: Very Low *

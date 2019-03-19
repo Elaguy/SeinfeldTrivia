@@ -1,0 +1,6 @@
+*Ranked in order of importance*
+
+1. Implement 10-second timer
+2. Implement default 10 question limit
+3. Fix Bug #1
+4. Fix Bug #2

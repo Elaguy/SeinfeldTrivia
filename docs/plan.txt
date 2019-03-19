@@ -1,0 +1,55 @@
+------------------------------------------
+|		   QUESTION #_	    Time Left: _ |
+|                                        |
+|                 Question               |
+|                                        |
+|                Answer #1               |
+|   PIC?         Answer #2     PIC?      |
+|                Answer #3               |
+|                Answer #4               |
+|                                        |
+|                                        |
+|                  PIC?                  |
+|                                        |
+------------------------------------------
+
+1. Program goes to QuestionGui
+
+2. Data will go thru txt file containing:
+   - Question
+   - 4 Answers
+   - File address to picture
+   And will place this info in an ArrayList
+   and send it to QuestionGui
+   
+3. QuestionGui will look at ArrayList and initialize
+the JPanel based on these rules:
+
+   A question, an array of 4 questions, and a
+   file address to pic makes up a 6 index "block"
+
+   ArrayList model:
+   0 1 2 3 4 5  6 7 8 9 10 11  12 13 14 15 16 17
+
+   - Every 6 indexes are a QUESTION STRING (including the
+   first index - 0)
+   - The 4 indexes after the first one are the 4
+   ANSWER STRINGS
+   - The last index after the 4 answers are a FILE ADDRESS
+   TO AN IMAGE 
+   
+4. Once the JPanel is initalized, a 10 second timer starts
+
+5. Once the user answers correctly or runs out of time, the JPanel
+calls itself again and again (each time deleting the previous 3 index 
+"block" from the ArrayList), repeating for as many questions there are
+until it hits a default 10 question limit (which can be modified)
+ or until it runs out of data from the ArrayList
+
+6. The program gathers the score info
+
+7. The program changes to a score JPanel and shows the user their
+score (how many questions they got right, how many they got wrong,
+and then a corrosponding medal).
+
+8. The user can quit, go back to the main menu, or start a new trivia round

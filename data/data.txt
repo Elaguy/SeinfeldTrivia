@@ -1,0 +1,46 @@
+// This is the crucial data file for SeinfeldTrivia, holding
+// questions, their answers, and a relative path to their respective
+// pictures.
+//
+// 4 questions are already here.
+// ADDING CONTENT IS ENCOURAGED, BUT PLEASE FOLLOW THESE *SYNTAX RULES*:
+// - Each entry (a question, answer, etc.) is limited to ONE LINE.
+// - Whitespaces (no text or spaces) is ignored.
+// - There is a question on every seven lines (excluding whitespaces), and
+// including the first line (the first line should be a question).
+// - This is followed by four answers, each on their own line.
+// - The correct answer MUST have a '+' sign somewhere on its line.
+// - The answers are followed by a relative path to the picture
+// (simply use the pictures name and its extension '.jpg' or '.png'),
+// these paths are on their own line.
+// - Comments like these are only supported ON THEIR OWN LINE (like they are now).
+// FAILURE TO FOLLOW THESE RULES WILL RESULT IN ERRORS WHEN STARTING THE PROGRAM.
+
+
+What does George eat 'the size of a car battery'?
+Block of cheese+
+Ice cream
+Bosco syrup
+Pepsi
+george_eating_cheese.jpg
+
+What is Kramer's fictional business called?
+Kramerica+
+Any Town USA
+Serenity Now
+KramerCorp
+kramer_with_intern.jpg
+
+Who did Kramer and Newman use to push rickshaws around NYC?
+Homeless People+
+Jerry and Elaine
+Police Officers
+Russian Cable Men
+kramer_rickshaws.jpg
+
+What is Newman's job?
+Postman+
+Car mechanic
+Computer programmer
+Cashier
+newman.jpg

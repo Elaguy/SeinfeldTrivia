@@ -1,0 +1,91 @@
+Seinfeld Trivia Changelog
+=========================
+
+LEGEND:
+- 'i' stands for 'in-development', the stage before Alpha, not very functional and lots o' bugs
+- 'a' stands for 'alpha', the early but mostly functional stage, somewhat buggy
+- 'b' stands for 'beta', the more polished but not finished yet stage, small amount of bugs
+- 'r' stands for 'release', the final stage where the software is not in active development
+
+VERSION: 0.1i - 10/8/16
+-----------------------
+- In-development
+
+- Bugginess Level: High 
+
+- Created program "shell"
+- Added seinfeld logo with "TRIVIA!" text
+- Added "Start Trivia" button that took up half the dang screen
+
+VERSION: 0.2i - 10/9/16
+-----------------------
+- Bugginess Level: Medium
+
+- Switched HomeGui JPanel layout from GridLayout
+to BoxLayout
+- Fixed the "Start Trivia" button
+- Changed "look and feel" of GUI to system's/OS's look and feel
+(Ubuntu will have Ubuntu look, Windows will have Windows look,
+macOS will have macOS look)
+- Added "Options" button
+- Added "Quit" button
+- Added basic button functionality
+- Changed some initialization structure
+- Added Options JPanel "screen" with an experimental picture
+
+VERSION: 0.4i - 10/29/16
+------------------------
+- Bugginess Level: High
+
+- Implemented data-gathering system
+- Implemented QuestionGui basics
+- Implemented Correct Answer system for QuestionGui
+- Implemented one-line, on their own line, comments for data.txt file 
+- Implemented proper button functionality (when correct answer or wrong
+answer buttons are clicked, they show their respective colors and all the
+other buttons are disabled)
+- Implemented a (by default) 5 second timer that gives the user time
+to see if they got the question right or wrong before moving on to the
+next question, program moves on to next question automatically
+- Made data gathering and the triviaData ArrayList transfer from Data
+to QuestionGui more efficient (Data no longer repeatedly goes through
+the data.txt file after doing it once)
+- Fixed several issues related to previous entry
+
+VERSION: 0.5a - 11/12/16
+------------------------
+- ALPHA!
+
+- Bugginess Level: Medium
+
+- Cleaned up the infamous QuestionGui actionPerformed method
+- Implemented two buggy timers (the answer timer and the move on delay timer)
+- Fixed a timer bug
+- All timers work! (mostly)
+- The timer will stop and not display 'out of time!' or anything else when
+user pressed the correct answer right when time is 0
+- Implemented a thread that continuously checks if user has pressed the 'start trivia'
+button (which is synonymous with arriving at the QuestionGui JPanel/'screen'. If so, the
+answer timer is started. This prevents the timer running and running out of time before
+the user ever enters the QuestionGui JPanel
+
+VERSION: 0.7a - 11/22/16
+------------------------
+- Bugginess Level: Low
+
+- Significant improvements were made in the previous version,
+so the program was promoted directly to 0.7, skipping 0.6
+- Implemented question limit, default number of questions is 10
+- Fixed one of the answer timer bugs
+- Implemented the ScoreboardGui
+
+VERSION: 0.8b - 11/26/16
+------------------------
+- BETA!
+
+- Bugginess Level: Low
+
+- All the main features designated from the start have been
+implemented. Now, code clean-up & organization and documentation/commenting
+will be the focus of the Beta phase. Major Aesthetic work will probably not be
+implemented, ever.
